@@ -1,0 +1,135 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.App {
+  text-align: center;
+  /* background: "#063970" */
+}
+.headText{
+  margin-top: 63px;
+  background: linear-gradient(90deg,#882e27,#6d869a 50%,#231641) #44287d;
+  height: 270px;
+}
+.headText .title {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  color: #fff;
+  max-width: 1100px;
+}
+.title{
+  /* max-width: 1100px; */
+  font-size: 42px;
+  letter-spacing: 0;
+  font-weight: 600;
+  line-height: 46px;
+  margin-bottom: 8px;
+  padding-top: 50px;
+}
+.headText .subtitle{
+  color: #fff;
+  max-width: 980px;
+  margin: auto auto 28px;
+}
+.subtitle{
+  font-size: 22px;
+  font-weight: 400;
+  letter-spacing: 0;
+  margin-bottom: 8px;
+  line-height: 32px;
+}
+.cardsSection{
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: -50px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: auto;
+  /* grid-gap: 1rem; */
+}
+.infoSection{
+  background: #f2f3f8;
+  padding: 96px 0 124px;
+}
+.container{
+  max-width: 1200px;
+  padding-right: 24px;
+  padding-left: 24px;
+}
+.container_header{
+  text-align: center;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 190px;
+}
+.title1{
+  text-align: center;
+  font-size: 32px;
+  letter-spacing: 0;
+  font-weight: 600;
+  color: #383e45;
+  margin-bottom: 8px;
+  line-height: 40px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  /* padding-top: 110px; */
+}
+.subtitle1{
+  text-align: center;
+  color: #383e45;
+  font-size: 22px;
+  font-weight: 400;
+  letter-spacing: 0;
+  margin-bottom: 8px;
+  line-height: 32px;
+  /* padding-bottom: 110px; */
+}
+.black-block{
+  background: #383e45;
+  color: #f3f0ec;
+  padding: 96px 0 124px;
+}
+.black-container{
+  color: #f3f0ec;
+  max-width: 1200px;
+  padding-right: 24px;
+  padding-left: 24px;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
